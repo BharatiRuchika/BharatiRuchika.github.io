@@ -136,7 +136,7 @@ inputEle.addEventListener('keyup', function (e) {
                     result.innerText = "No search results found"
                     mealElement.innerHTML = ""
                 } else {
-
+                    result.innerText = ""
                     // Clean and display meal results
                     const cleanMeals = data.meals.map((meal) => {
                         const updatedMeal = {};
